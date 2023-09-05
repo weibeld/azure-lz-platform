@@ -16,4 +16,9 @@ module "caf-enterprise-scale" {
 
   root_parent_id = "72a44a42-bb1a-4e84-ac1e-4654b21555f4"
   default_location = "switzerlandnorth"
+  # Prevents usage data collection by Microsoft. This prevents the creation of
+  # the following resources:
+  # - azurerm_subscription_template_deployment
+  # - random_id
+  disable_telemetry = true
 }

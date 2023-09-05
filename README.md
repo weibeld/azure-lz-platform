@@ -17,6 +17,7 @@ The default configuration (see [here](https://github.com/Azure/terraform-azurerm
 
 ### Notes
 
+- The `azurerm_subscription_template_deployment` resource is only used for usage data collection by Microsoft ("telemetry") which can be disabled with the `disable_telemetry` input parameter of the module
 - All policy definitions and policy set definitions have `management_group_id` set to the level 1 management group (Enterprise-Scale)
 - The policy set definitions (policy initiatives) reference a subset of the custom policies defined in the module as well as built-in policies
 - The relation between policy sets, custom policies, and built-in policies is as follows (more details in [Policies](#policies.md)):
