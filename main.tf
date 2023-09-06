@@ -22,4 +22,5 @@ module "caf-enterprise-scale" {
   # - random_id
   disable_telemetry = true
   root_name = "Cloud Foundation"
+  root_id = "dev"
 }
