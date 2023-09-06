@@ -14,13 +14,13 @@ module "caf-enterprise-scale" {
     azurerm.management   = azurerm
   }
 
-  root_parent_id = "72a44a42-bb1a-4e84-ac1e-4654b21555f4"
+  root_parent_id = "cloud-foundation"
   default_location = "switzerlandnorth"
   # Prevents usage data collection by Microsoft. This prevents the creation of
   # the following resources:
   # - azurerm_subscription_template_deployment
   # - random_id
   disable_telemetry = true
-  root_name = "Cloud Foundation Dev"
+  root_name = "Dev"
   root_id = "dev"
 }
