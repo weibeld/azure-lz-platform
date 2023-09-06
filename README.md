@@ -1,5 +1,12 @@
 # caf-enterprise-scale
 
+TODO:
+  - _Cloud Foundation_ management group under _Tenant Root Group_ with sub-management groups _Dev_ and _Prod_ which will be the roots of the corresponding Cloud Foundation deployments
+    - See https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BUser-Guide%5D-Module-Permissions#reduce-scope-of-access-control
+  - Dedicated pipelines for the different platform landing zones with restricted permissions
+    - See https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BUser-Guide%5D-Module-Permissions#connectivity-resources
+    - See https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BUser-Guide%5D-Module-Permissions#management-resources
+
 ## Default configuration
 
 ### Configuration
