@@ -21,4 +21,5 @@ module "caf-enterprise-scale" {
   # - azurerm_subscription_template_deployment
   # - random_id
   disable_telemetry = true
+  root_name = "Cloud Foundation"
 }

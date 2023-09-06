@@ -2,7 +2,12 @@
 
 ## Default configuration
 
-The default configuration (see [here](https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BUser-Guide%5D-Getting-Started#provisioning-instructions)) creates the following Azure resources:
+### Configuration
+
+- https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BUser-Guide%5D-Getting-Started#provisioning-instructions
+- https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BExamples%5D-Deploy-Default-Configuration
+
+### Resources
 
 
  | Terraform resource                                                                         | Azure resource/concept                 | Count |
@@ -26,7 +31,7 @@ The default configuration (see [here](https://github.com/Azure/terraform-azurerm
     | Custom policies referenced in **no** policy set   | 43    |
     | Custom policies referenced in **one** policy set  | 81    |
     | References to built-in policies in policy sets    | 135   |
-    | Uniqe built-in policies referenced in policy sets | 125   |
+    | Unique built-in policies referenced in policy sets | 125   |
 - Policies are assigned **only** to management groups
 - Policies **and** policy sets are assigned to management groups
 - Both custom policies and policy sets **and** built-in policies and policy sets are assigned to management groups
